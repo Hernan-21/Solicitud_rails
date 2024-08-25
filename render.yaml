@@ -1,0 +1,13 @@
+# Exported from Render on 2024-08-25T03:19:55Z
+services:
+- type: web
+  name: Solicitud_rails
+  runtime: static
+  repo: https://github.com/Hernan-21/Solicitud_rails
+  envVars:
+  - key: RAILS_MASTER_KEY
+    sync: false
+  - key: WEB_CONCURRENCY
+    sync: false
+  staticPublishPath: app/ttemplate/new.html.erb
+version: "1"
